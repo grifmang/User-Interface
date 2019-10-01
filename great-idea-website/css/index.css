@@ -66,38 +66,45 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	margin: 20px;
+	font-weight: bolder;
+	background: black;
 }
 
-nav {
+.container {
+	max-width: 60%;
+	margin: auto;
+	background:white;
+}
+
+.content {
+	margin: 0 50px;
 }
 
 .split_column {
-	width: 45%;
-	border: 2px solid black;
-	text-align: center;
+	width: 44%;
+	/* text-align: center; */
 	display: inline-block;
-}
-
-.alignColumn {
-	width: 100%;
 }
 
 .alignColumn .banger {
-	font-size: 40px;
-	font-family: Bangers;
+	font-size: 60px;
+	border: 1px solid red;
+}
+
+.alignColumn {
+	margin: 45px;
+	text-align: center;
+}
+ 
+nav {
+	margin: 20px 50px;
 }
 
 nav a {
-	color: rgba(255,140,0,.5);
+	color: rgba(126, 124, 123, 0.5);
 	padding: 20px;
 	font-size: 14px;
-	border: 2px solid black;
-}
-
-.logo {
-	text-align: left;
-	display: inline-block;
+	text-decoration: none;
 }
 
 footer {
@@ -105,6 +112,47 @@ footer {
 }
 
 .cta {
-	padding: 20px 10px;
-	border: 2px solid black;
+	padding: 10px;
+	border: 1px solid black;
+	font-size: 15px;
+	width: 200px;
+}
+
+.banger {
+	bottom: 25px;
+}
+
+.center {
+	display: inline-block;
+	text-align: center;
+}
+
+.phoneEmail {
+	text-decoration: none;
+	color: black;
+}
+
+.threeColumn {
+	width: 33%;
+	display: inline-block;
+}
+
+.triple {
+	margin: 20px 10px;
+}
+
+.spaceRight {
+	margin-left: 20px;
+}
+
+.middle-img {
+	margin: 25px 25px 25px 0;
+}
+
+hr {
+	margin: 40px 0px;
+}
+
+.split_column .banger {
+	margin-top: -55px;
 }
