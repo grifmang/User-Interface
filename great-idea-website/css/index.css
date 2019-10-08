@@ -64,3 +64,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+body {
+	font-weight: bolder;
+	background: black;
+}
+
+.container {
+	max-width: 58%;
+	margin: auto;
+	background:white;
+}
+
+.content {
+	margin: 0 50px;
+}
+
+.split_column {
+	width: 49%;
+	/* text-align: center; */
+	display: inline-block;
+}
+
+.alignColumn .banger {
+	font-size: 80px;
+	font-weight: normal;
+}
+
+.alignColumn {
+	padding-top: 10%;
+	text-align: center;
+}
+ 
+nav {
+	margin:0 50px;
+}
+
+nav a {
+	color: rgba(247, 243, 241, 0.5);
+	padding: 20px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.cta {
+	padding: 10px;
+	border: 1px solid black;
+	font-size: 15px;
+	width: 200px;
+	margin: auto;
+}
+
+.banger {
+	bottom: 25px;
+}
+
+.center {
+	display: inline-block;
+	/* margin-left: 8%; */
+}
+
+.phoneEmail {
+	text-decoration: none;
+	color: black;
+}
+
+.threeColumn {
+	width: 33%;
+	display: inline-block;
+}
+
+.triple {
+	margin: 20px 10px;
+}
+
+.spaceRight {
+	margin-left: 20px;
+}
+
+.middle-img {
+	margin: 25px 25px 25px 0;
+}
+
+hr {
+	margin: 40px 0px;
+}
+
+.split_column .banger {
+	margin-top: -55px;
+	display: inline-block;
+}
+
+.split_column2 {
+	width: 44%;
+	/* text-align: center; */
+	display: inline-block;
+}
+
+#stickyNav {
+	position: fixed;
+	background-color: dodgerblue;
+	z-index: 999;
+	top: 0;
+}
+
+p {
+	font-family: 'Mansalva', cursive;
+}
